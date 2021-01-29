@@ -17,7 +17,9 @@ docker build -t=hello_flask .
 docker image ls
 
 #rodar imagem#
+
 docker run hello_flask &
+
 docker stop
 
 #Rodar servidor e fazer conexão interna e externa#
@@ -25,4 +27,6 @@ docker stop
 docker run -p 4000:80 --name app_hello hello_flask &
 
 #Parar servidor#
+
+
 docker stop app_hello
