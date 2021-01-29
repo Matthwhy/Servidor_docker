@@ -2,7 +2,7 @@
 Um servidor criado a base de docker
 
 
-gir clone https://github.com/Matthwhy/Servidor_docker.git
+git clone https://github.com/Matthwhy/Servidor_docker.git
 
 #Entrar na pasta do código#
 
